@@ -59,3 +59,11 @@ API layer
 Service layer
 
 Router layer
+
+
+How to Run the Project
+### Run the Application (Recommended)
+inside main.py
+```bash
+uvicorn app.api:app --reload --port 8000
+
